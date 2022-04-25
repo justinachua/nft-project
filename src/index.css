@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,400&display=swap');
+
+.alchemy {
+    background: linear-gradient(267.45deg,#05d5ff -34.23%,#53f 99.39%)
+}
+
+.attributesWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: auto;
+    max-height: 45vh;
+    overflow: scroll;
+  }
+
+.layoutWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.layoutWrapper > div {
+    flex-basis: 50%;
+}
+
+.metadataWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.imageWrapper {
+    max-height: 60vh;
+}
+
+.topWrapper {
+    max-height: 15vh;
+}
